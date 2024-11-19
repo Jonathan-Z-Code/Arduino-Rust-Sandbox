@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["rust_arduino_test"];
