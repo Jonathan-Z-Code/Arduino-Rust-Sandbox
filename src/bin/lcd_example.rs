@@ -1,11 +1,14 @@
-// user-defined settings
 #![no_std]
 #![no_main]
 #![allow(unused_variables)]
 #![allow(dead_code)]
+#![allow(special_module_name)]
 
-#[doc = include_str!("./lcd_doc.md")]
-mod lcd_utils; 
+#[doc = include_str!("./lib/lcd_doc.md")]
+
+
+mod lib;
+use lib::lcd_utils;
 
 use arduino_hal::{hal::{self, port}, port::{mode, Pin}, Peripherals, Pins};
 
@@ -40,7 +43,6 @@ fn borrow_uart( serial:  &mut hal::usart::Usart0<arduino_hal::DefaultClock>,
 }
 
 #[arduino_hal::entry]
-
 fn main() -> ! {
     
     // configure peripheral library and pin layout for ATMEGA328P

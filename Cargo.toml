@@ -5,10 +5,11 @@ authors = ["jzuri <jzuritastem@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
-[[bin]]
-name = "rust-arduino-test"
-test = false
-bench = false
+# if you want to specify the bin file name, uncomment the following commands
+# [[bin]]
+# name = "rust-arduino-test"
+# test = false
+# bench = false
 
 [dependencies]
 panic-halt = "0.2.0"
