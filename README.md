@@ -1,34 +1,15 @@
-rust-arduino-test
-=================
+# Arduino Rust Sandbox
+Welcome to the Arduino Rust Sandbox! <br/> 
+By: Jonathan Zurita 
 
-Rust project for the _Arduino Uno_.
+Here are some coding examples I have created through the arduino no_std library provided
+by Rahix! <br/>
 
-## Build Instructions
-1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
+All coding files I have created are located in the src/bin folder <br/>
+I have also left the `Cargo.toml` and `Cargo.lock` file in order for anyone to cross-check dependencies on their machine.
 
-2. Run `cargo build` to build the firmware.
-
-3. Run `cargo run` to flash the firmware to a connected board.  If `ravedude`
-   fails to detect your board, check its documentation at
-   <https://crates.io/crates/ravedude>.
-
-4. `ravedude` will open a console session after flashing where you can interact
-   with the UART console of your board.
-
-[`avr-hal` README]: https://github.com/Rahix/avr-hal#readme
-[`ravedude`]: https://crates.io/crates/ravedude
-
-## License
-Licensed under either of
-
- - Apache License, Version 2.0
-   ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
- - MIT license
-   ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
-
-at your option.
-
-## Contribution
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall
-be dual licensed as above, without any additional terms or conditions.
+## Documentation Links
+This Github Pages integration provides documentation for all source files within `src/bin`. Look at the "Crates" section in the 
+bottom left side in order to search through each example file.
+- [JHD162A LCD Example Code](https://jonathan-z-code.github.io/Arduino-Rust-Sandbox/avr-atmega328p/doc/lcd_example/index.html)
+- [JHD162A LCD Library Source Code](https://jonathan-z-code.github.io/Arduino-Rust-Sandbox/avr-atmega328p/doc/lcd_example/lib/lcd_utils/index.html)
