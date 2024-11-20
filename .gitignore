@@ -1,9 +1,6 @@
 # dont record target info
 /target
 
-# dont need to record avr-specs, this is open source info
-/avr-specs
-
 # dont need to record release specs
 /docs/release
 
