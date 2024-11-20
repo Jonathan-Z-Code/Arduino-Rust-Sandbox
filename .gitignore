@@ -6,3 +6,7 @@
 
 # again no need to record release specs
 /docs/avr-atmega328p/release
+
+/docs/debug
+/docs/avr-atmega328p/debug
+/docs/doc

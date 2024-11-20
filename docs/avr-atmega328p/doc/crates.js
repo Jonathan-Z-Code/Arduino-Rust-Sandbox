@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["rust_arduino_test"];
+window.ALL_CRATES = ["lcd_example"];
