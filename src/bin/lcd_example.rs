@@ -4,9 +4,6 @@
 #![allow(dead_code)]
 #![allow(special_module_name)]
 
-#[doc = include_str!("./lib/lcd_doc.md")]
-
-
 mod lib;
 use lib::lcd_utils;
 

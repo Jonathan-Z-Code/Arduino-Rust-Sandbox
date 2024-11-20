@@ -345,8 +345,10 @@
 <a href="#343" id="343">343</a>
 <a href="#344" id="344">344</a>
 <a href="#345" id="345">345</a>
-</pre></div><pre class="rust"><code>
-<span class="kw">use </span>arduino_hal::port::{mode, Pin};
+<a href="#346" id="346">346</a>
+</pre></div><pre class="rust"><code><span class="attr">#![doc = <span class="macro">include_str!</span>(<span class="string">"./lcd_doc.md"</span>)]
+
+</span><span class="kw">use </span>arduino_hal::port::{mode, Pin};
 
 <span class="doccomment">/// Maximum length for one row of characters
 </span><span class="kw">const </span>MAX_LENGTH: u8 = <span class="number">16</span>; 

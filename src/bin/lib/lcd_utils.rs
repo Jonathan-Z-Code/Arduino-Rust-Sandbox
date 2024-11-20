@@ -1,3 +1,4 @@
+#![doc = include_str!("./lcd_doc.md")]
 
 use arduino_hal::port::{mode, Pin};
 
